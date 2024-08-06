@@ -2,7 +2,7 @@ module.exports = {
   title: "狼组安全团队公开知识库",
   theme: "antdocs",
   description: "致力于打造信息安全乌托邦",
-  base: "/",
+  base: "/wgpsec",
   // base: process.env.NODE_ENV === "production" ? './' : '/',
   dest: "public",
   head: [
@@ -19,7 +19,7 @@ module.exports = {
   plugins: {
     "@vuepress/active-header-links": {},
     "sitemap": {
-      hostname: "https://wiki.wgpsec.org"
+      hostname: "https://kukuqi666.github.io/wgpsec"
     },
     "@vssue/vuepress-plugin-vssue": {
       // 设置 `platform` 而不是 `api`
