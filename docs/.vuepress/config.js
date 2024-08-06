@@ -2,7 +2,7 @@ module.exports = {
   title: "狼组安全团队公开知识库",
   theme: "antdocs",
   description: "致力于打造信息安全乌托邦",
-  base: "/wgpsec",
+  base: "/wgpsec/",
   // base: process.env.NODE_ENV === "production" ? './' : '/',
   dest: "public",
   head: [
