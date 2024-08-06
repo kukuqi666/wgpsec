@@ -48,7 +48,7 @@ module.exports = {
     sidebarDepth: 0,
     activeHeaderLinks: false,
     lastUpdated: "上次更新",
-    repo: "https://github.com/wgpsec",
+    repo: "https://github.com/kukuqi666",
     editLinks: false,
     ads: {
       style: 3,
