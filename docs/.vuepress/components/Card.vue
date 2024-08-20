@@ -1,15 +1,15 @@
 <template>
   <a-row :gutter="[24, 24]">
-    <a-col :xs="24" :sm="12" :md="12" :lg="6">
+    <a-col v-for="(card, index) in cards" :key="index" :xs="24" :sm="12" :md="8" :lg="6">
       <div class="card-tag tag-info">安全工具</div>
       <a-card hoverable>
-        <img :src="cover" slot="cover" class="reset-height" />
+        <img :src="card.cover" slot="cover" class="reset-height" />
         <template slot="actions">
-          <a :href="link" target="_blank" rel="noopener noreferrer">
+          <a :href="card.link" target="_blank" rel="noopener noreferrer">
             <a-button type="primary" icon="github" ghost>传送门</a-button>
           </a>
         </template>
-        <a-card-meta :title="title" :description="author" />
+        <a-card-meta :title="card.title" :description="card.author" />
       </a-card>
     </a-col>
   </a-row>
@@ -17,12 +17,12 @@
 
 <script>
 export default {
-  name: "Card",
+  name: "CardGrid",
   props: {
-    cover: String,
-    link: String,
-    title: String,
-    author: String
+    cards: {
+      type: Array,
+      required: true
+    }
   }
 };
 </script>
