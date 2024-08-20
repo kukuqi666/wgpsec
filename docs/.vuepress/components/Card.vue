@@ -1,45 +1,44 @@
 <template>
-  <a-col :sm="24" :md="12" :lg="6">
-	  	<div class="card-tag tag-info">安全工具</div>
-		<a-card hoverable>
-			<img :src="cover" slot="cover" class="reset-height"/>
-			<template class="ant-card-actions" slot="actions">
-				<a :href="link" target="_blank" rel="noopener noreferrer">
-					<a-button type="primary" icon="github" ghost>传送门</a-button>
-				</a>
-			</template>
-			<a-card-meta :title="title" :description="author">
-			</a-card-meta>
-		</a-card>
-	</a-col>
+  <div class="card">
+    <a :href="link" target="_blank">
+      <img :src="cover" alt="cover" class="card-cover" />
+      <div class="card-content">
+        <h3>{{ title }}</h3>
+        <p>{{ author }}</p>
+      </div>
+    </a>
+  </div>
 </template>
+
 <script>
 export default {
-  name:"Card",
-  props:[
-    "cover",
-    "link",
-    "title",
-    "author"
-  ]
+  props: {
+    cover: String,
+    link: String,
+    title: String,
+    author: String
+  }
 }
 </script>
-<style>
-.card-tag {
-	position: absolute;
-	padding: 4px 7px 4px 14px;
-	border-radius: 50px 0 0 50px;
-	border: 1px solid transparent;
-	border-right-color: transparent !important;
-	right: 0;
-	top: 15px;
-	z-index: 20;
-	text-align: center;
-	user-select: none;
+
+<style scoped>
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
 }
-.tag-info {
-	color: #fa8c16;
-	background: #fff7e6;
-	border-color: #ffd591;
+.card-cover {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.card-content {
+  padding: 1em;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 0 9px 20px -8px rgba(0,0,0,.18);
 }
 </style>
