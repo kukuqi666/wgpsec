@@ -1,44 +1,52 @@
 <template>
-  <div class="card">
-    <a :href="link" target="_blank">
-      <img :src="cover" alt="cover" class="card-cover" />
-      <div class="card-content">
-        <h3>{{ title }}</h3>
-        <p>{{ author }}</p>
-      </div>
-    </a>
-  </div>
+  <a-row :gutter="[32, 32]">
+    <a-col :xs="24" :sm="12" :md="8" :lg="6" v-for="(item, index) in cards" :key="index">
+      <div class="card-tag tag-info">安全工具</div>
+      <a-card hoverable>
+        <img :src="item.cover" slot="cover" class="reset-height" />
+        <template class="ant-card-actions" slot="actions">
+          <a :href="item.link" target="_blank" rel="noopener noreferrer">
+            <a-button type="primary" icon="github" ghost>传送门</a-button>
+          </a>
+        </template>
+        <a-card-meta :title="item.title" :description="item.author" />
+      </a-card>
+    </a-col>
+  </a-row>
 </template>
 
 <script>
 export default {
+  name: "CardGrid",
   props: {
-    cover: String,
-    link: String,
-    title: String,
-    author: String
+    cards: {
+      type: Array,
+      required: true
+    }
   }
 }
 </script>
 
-<style scoped>
-.card {
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  overflow: hidden;
-  transition: box-shadow 0.3s;
-  cursor: pointer;
-}
-.card-cover {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-}
-.card-content {
-  padding: 1em;
+<style>
+.card-tag {
+  position: absolute;
+  padding: 4px 7px 4px 14px;
+  border-radius: 50px 0 0 50px;
+  border: 1px solid transparent;
+  border-right-color: transparent !important;
+  right: 0;
+  top: 15px;
+  z-index: 20;
   text-align: center;
+  user-select: none;
 }
-.card:hover {
-  box-shadow: 0 9px 20px -8px rgba(0,0,0,.18);
+.tag-info {
+  color: #fa8c16;
+  background: #fff7e6;
+  border-color: #ffd591;
+}
+.reset-height {
+  max-height: 160px;
+  object-fit: cover;
 }
 </style>
