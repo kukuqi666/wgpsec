@@ -18,8 +18,8 @@ footerWrap:
     link: https://pan.wgpsec.org
     details: 安全工具下载（带宽满速）
   - title: 狼组漏洞库
-    link: https://poc.wgpsec.org/
-    details: 狼组POC文库
+    link: https://wiki.wgpsec.org
+    details: 狼组wiki文库
   - title: 狼组渗透资源库
     link: https://go.wgpsec.org
     details: 渗透工具链接导航
@@ -44,7 +44,7 @@ footerWrap:
   - title: 微信交流群
     link: /guide
     details: 根据提示加入群组
-footer: Powered by WgpSec Team | Copyright © 2014-2021 WgpSec 狼组安全团队
+footer: Powered by WgpSec Team | Copyright © 2020-2024 WgpSec 狼组安全团队
 ---
 
 <a-alert type="warning" message="警告" description="狼组安全团队公开知识库仅可用于安全从业人员或网络安全爱好者查阅资料，所提供的一切信息禁止用于任何非法用途，所产生的后果与狼组安全团队和内容贡献者无关。" showIcon>
