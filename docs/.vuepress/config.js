@@ -1,5 +1,5 @@
 module.exports = {
-  title: "狼组安全团队公开知识库",
+  title: "网络安全团队公开知识库",
   theme: "antdocs",
   description: "致力于打造信息安全乌托邦",
   base: "/wgpsec/",
@@ -13,7 +13,7 @@ module.exports = {
     ["meta", { name: "keywords", content: "知识库,公开知识库,狼组,狼组安全团队知识库,knowledge" }],
     ["meta", {
       name: "description",
-      content: "为了让安全爱好者拥有一个良好的学习环境，我们打造了一个免费开放且持续更新的网络安全知识库知识整合站点，WgpSec狼组安全团队公开知识，由WgpSec狼组安全团队成员以及社区使用者共同进行维护。"
+      content: "为了让安全爱好者拥有一个良好的学习环境，我们打造了一个免费开放且持续更新的网络安全知识库知识整合站点，WgpSec网络安全团队公开知识，由WgpSec网络安全团队成员以及社区使用者共同进行维护。"
     }]
   ],
   plugins: {
@@ -55,7 +55,7 @@ module.exports = {
       title: "赞助商",
       btnText: "成为赞助商",
       msgTitle: "成为赞助商",
-      msgText: "如果您有品牌推广、活动推广、招聘推广、社区合作等需求，欢迎联系我们，成为赞助商。您的广告将出现在 狼组安全团队公开知识库 侧边栏等页面。",
+      msgText: "如果您有品牌推广、活动推广、招聘推广、社区合作等需求，欢迎联系我们，成为赞助商。您的广告将出现在 网络安全团队公开知识库 侧边栏等页面。",
       msgOkText: "确定"
     }
   }
