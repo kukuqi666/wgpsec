@@ -20,7 +20,6 @@ title: 使用指南
 <img width="130" src="https://assets.wgpsec.org/www/images/antd-icon.svg"><span class="sign">+</span><img width="130" src="https://assets.wgpsec.org/www/images/markdown-icon.svg">
 </div>
 
-- 本项目受 [零组资料文库](https://wiki.0-sec.org) 的启发，在编写过程中参考了诸多资料，在此一并致谢。
 - 在这里，知识开放且共享，所有内容全部开放供查阅。如果对本项目感兴趣，你也可自行投稿，一起来为知识库添砖加瓦。
 
 ## 面向人群
