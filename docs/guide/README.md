@@ -28,15 +28,6 @@ title: 关于知识库
 - 网络安全从业者
 - 网络安全爱好者
 
-## 官方交流群
-
-- 官网：[www.wgpsec.org](https://www.wgpsec.org)
-- QQ群：一群：431598862 二群：480766440
-- 微信群：关注微信公众号回复加群，按照提示进行操作
-- 微信公众号 
-   <br>
-   <img width="500" src="https://assets.wgpsec.org/www/images/wechat.png">
-
 <style>
   .reset-iframe{
     vertical-align: middle;
