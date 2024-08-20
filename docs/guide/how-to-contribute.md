@@ -20,8 +20,10 @@ title: 文章投稿
 
 ## 联系方式 
 
-[telegram](https://t.me/kukuqi666)
 [x](https://x.com/wnfng521)
+
+[telegram](https://t.me/kukuqi666)
+
 [facebook](https://www.facebook.com/profile.php?id=100083476812104)
 
 邮箱：kukuqi666@gmail.com
