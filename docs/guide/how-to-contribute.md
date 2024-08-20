@@ -7,10 +7,6 @@ title: 文章投稿
 
 投稿形式为`Markdown`文件，内容要与知识库分类有关联，否则无效。
 
-1、将文章发布在[c.wgpsec.org](https://c.wgpsec.org/)狼组安全社区中，文章标题备注[wiki投稿]；
-
-2、在社交群喊`@keacwu`、`@wintrysec`我要投稿。
-
 <a-alert type="info" message="提示（贴图规范）" description="Markdown文件内的图片以外链形式插入" showIcon>
 </a-alert>
 
