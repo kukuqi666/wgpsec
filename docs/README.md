@@ -44,10 +44,10 @@ footerWrap:
   - title: 微信交流群
     link: /guide
     details: 根据提示加入群组
-footer: Powered by WgpSec Team | Copyright © 2020-2024 WgpSec 狼组安全团队
+footer: Powered by WgpSec Team | Copyright © 2020-2024 WgpSec 网络安全团队
 ---
 
-<a-alert type="warning" message="警告" description="狼组安全团队公开知识库仅可用于安全从业人员或网络安全爱好者查阅资料，所提供的一切信息禁止用于任何非法用途，所产生的后果与狼组安全团队和内容贡献者无关。" showIcon>
+<a-alert type="warning" message="警告" description="网络安全团队公开知识库仅可用于安全从业人员或网络安全爱好者查阅资料，所提供的一切信息禁止用于任何非法用途，所产生的后果与网络安全团队和内容贡献者无关。" showIcon>
 </a-alert>
 
 
