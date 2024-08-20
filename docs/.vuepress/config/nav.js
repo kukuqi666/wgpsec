@@ -12,7 +12,7 @@ module.exports = [
     link: '/knowledge/'
   },
   {
-    text: '开源项目',
+    text: '渗透工具合集',
     link: '/opensource/'
   }
 ];
