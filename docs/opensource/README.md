@@ -361,3 +361,26 @@ title: 渗透工具合集
     author="作者：wintrysec（温酒）" 
   />
 </a-row>
+
+<style>
+.ant-card-hoverable{
+	cursor: default;
+}
+.reset-height{
+	max-height: 164px;
+}
+.ant-card-hoverable:hover {
+	-webkit-box-shadow: 0 9px 20px -8px rgba(0,0,0,.18);
+	box-shadow: 0 9px 20px -8px rgba(0,0,0,.18);
+}
+.mobile-adapt{
+	padding: 0 9rem;
+	text-align:center
+}
+
+@media (max-width: 767px) {
+  .mobile-adapt{
+		padding: 0;
+	}
+}
+</style>
