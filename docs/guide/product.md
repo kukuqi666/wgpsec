@@ -6,7 +6,7 @@ title: 🌿生态系统
 <p>&emsp;</p>   
 <a-row :gutter="[32,32]">
 	<Card 
-		cover="https://plat.wgpsec.org/img/left_bg.9039904f.png" 
+		cover="https://gitee.com/wintrysec/images/raw/master/%E7%8B%BC%E6%AF%AB.png" 
 		link="https://plat.wgpsec.org/" 
 		title="狼组安全平台" 
 		author="在线工具集合平台" 
