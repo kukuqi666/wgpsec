@@ -55,11 +55,4 @@ footer: Powered by WgpSec Team | Copyright © 2014-2021 WgpSec 狼组安全团�
 
 [我也想为贡献者之一？](/guide/how-to-contribute.html)
 
-<p>&nbsp; </p> 
-
-## 赞助者  
-
-【广告位招租~】
-
-<p></p>
 
