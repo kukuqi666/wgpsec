@@ -6,7 +6,7 @@ title: 🌿生态系统
 <p>&emsp;</p>   
 <a-row :gutter="[32,32]">
 	<Card 
-		cover="https://gitee.com/wintrysec/images/raw/master//狼毫.png" 
+		cover="https://plat.wgpsec.org/img/left_bg.9039904f.png" 
 		link="https://plat.wgpsec.org/" 
 		title="狼组安全平台" 
 		author="在线工具集合平台" 
@@ -19,9 +19,9 @@ title: 🌿生态系统
 	/>
 	<Card 
 		cover="https://gitee.com/wintrysec/images/raw/master//pocpeiqi.png" 
-		link="https://poc.wgpsec.org/" 
+		link="https://wiki.wgpsec.org/" 
 		title="狼组漏洞库" 
-		author="WgpSec POC文库" 
+		author="WgpSec wiki文库" 
 	/>
 	<Card 
 		cover="https://gitee.com/wintrysec/images/raw/master//Gop.png" 
