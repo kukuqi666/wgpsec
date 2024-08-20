@@ -70,7 +70,7 @@ title: 渗透工具合集
     author="" 
   />
   <Card 
-    cover="https://gitee.com/kukuqi666/images/raw/master/10.jpg" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/48.jpg" 
     link="https://github.com/yanxiu0614/subdomain3" 
     title="subdomain3" 
     author="" 
@@ -112,7 +112,7 @@ title: 渗透工具合集
     author="" 
   />
   <Card 
-    cover="https://gitee.com/kukuqi666/images/raw/master/17.jpg" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/49.jpg" 
     link="https://github.com/Threezh1/JSFinder" 
     title="JSFinder" 
     author="" 
@@ -192,7 +192,7 @@ title: 渗透工具合集
     author="" 
   />
   <Card 
-    cover="https://gitee.com/kukuqi666/images/raw/master/28.jpg" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/50.jpg" 
     link="https://wiki.wy876.cn/#/" 
     title="wiki漏洞文库" 
     author="" 
