@@ -1,6 +1,5 @@
 module.exports = [
     
-    '/knowledge/',
     {
 		title: "CTF",
 		collapsable: true,
