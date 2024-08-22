@@ -1,45 +1,60 @@
 <template>
-  <a-col :sm="24" :md="12" :lg="6">
-	  	<div class="card-tag tag-info">安全工具</div>
-		<a-card hoverable>
-			<img :src="cover" slot="cover" class="reset-height"/>
-			<template class="ant-card-actions" slot="actions">
-				<a :href="link" target="_blank" rel="noopener noreferrer">
-					<a-button type="primary" icon="github" ghost>传送门</a-button>
-				</a>
-			</template>
-			<a-card-meta :title="title" :description="author">
-			</a-card-meta>
-		</a-card>
-	</a-col>
+  <a-col :xs="24" :sm="isMobile ? 24 : 12" :md="isMobile ? 24 : 8" :lg="6" class="card-col">
+    <div class="card-container">
+      <div class="card-tag tag-info">安全工具</div>
+      <a-card hoverable>
+        <img :src="cover" alt="Card cover" slot="cover" class="reset-height" />
+        <template v-slot:actions>
+          <a :href="link" target="_blank" rel="noopener noreferrer">
+            <a-button type="primary" icon="github" ghost>传送门</a-button>
+          </a>
+        </template>
+        <a-card-meta :title="title" :description="author"></a-card-meta>
+      </a-card>
+    </div>
+  </a-col>
 </template>
+
 <script>
 export default {
-  name:"Card",
-  props:[
-    "cover",
-    "link",
-    "title",
-    "author"
-  ]
-}
+  name: "Card",
+  props: {
+    cover: {
+      type: String,
+      required: true
+    },
+    link: {
+      type: String,
+      required: true
+    },
+    title: {
+      type: String,
+      required: true
+    },
+    author: {
+      type: String,
+      required: true
+    }
+  },
+  data() {
+    return {
+      isMobile: window.innerWidth <= 768
+    };
+  },
+  mounted() {
+    window.addEventListener("resize", this.handleResize);
+  },
+  beforeDestroy() {
+    window.removeEventListener("resize", this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      this.isMobile = window.innerWidth <= 768;
+    }
+  }
+};
 </script>
-<style>
-.card-tag {
-	position: absolute;
-	padding: 4px 7px 4px 14px;
-	border-radius: 50px 0 0 50px;
-	border: 1px solid transparent;
-	border-right-color: transparent !important;
-	right: 0;
-	top: 15px;
-	z-index: 20;
-	text-align: center;
-	user-select: none;
-}
-.tag-info {
-	color: #fa8c16;
-	background: #fff7e6;
-	border-color: #ffd591;
-}
+
+<style scoped>
+/* Add your styles here */
 </style>
