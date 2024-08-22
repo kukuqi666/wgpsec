@@ -1,5 +1,5 @@
 <template>
-  <a-col :xs="24" :sm="isMobile ? 24 : 12" :md="isMobile ? 24 : 8" :lg="6" class="card-col">
+  <a-col :xs="24" :sm="12" :md="8" :lg="6" class="card-col">
     <div class="card-container">
       <div class="card-tag tag-info">安全工具</div>
       <a-card hoverable>
@@ -35,26 +35,36 @@ export default {
       type: String,
       required: true
     }
-  },
-  data() {
-    return {
-      isMobile: window.innerWidth <= 768
-    };
-  },
-  mounted() {
-    window.addEventListener("resize", this.handleResize);
-  },
-  beforeDestroy() {
-    window.removeEventListener("resize", this.handleResize);
-  },
-  methods: {
-    handleResize() {
-      this.isMobile = window.innerWidth <= 768;
-    }
   }
 };
 </script>
 
 <style scoped>
-/* Add your styles here */
+.card-container {
+  position: relative;
+}
+
+.card-tag {
+  position: absolute;
+  padding: 4px 10px;
+  border-radius: 50px 0 0 50px;
+  right: 0;
+  top: 15px;
+  z-index: 20;
+  text-align: center;
+  user-select: none;
+  background: #fff7e6;
+  border: 1px solid #ffd591;
+  color: #fa8c16;
+}
+
+.reset-height {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.card-col {
+  margin-bottom: 24px;
+}
 </style>
