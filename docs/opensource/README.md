@@ -1,13 +1,14 @@
 ---
 title: 渗透工具合集
 ---
-# <h1 style="text-align:center">仓库直达地址</h1>
+
+<h1 style="text-align:center">仓库直达地址</h1>
 <div class="mobile-adapt">持续更新中……</div>
 <p>&emsp;</p>
 
 ## webshell
 
-<a-row :gutter="[32, 32]">
+<a-row :gutter="[24, 24]">
   <Card 
     cover="https://gitee.com/kukuqi666/images/raw/master/1.jpg" 
     link="https://github.com/rebeyond/Behinder" 
@@ -238,7 +239,7 @@ title: 渗透工具合集
 
 ## 子域名收集工具
 
-<a-row :gutter="[32, 32]">
+<a-row :gutter="[24, 24]">
   <Card 
     cover="https://gitee.com/kukuqi666/images/raw/master/7.jpg" 
     link="https://github.com/shmilylty/OneForAll" 
