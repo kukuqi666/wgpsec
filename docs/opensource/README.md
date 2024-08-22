@@ -221,6 +221,12 @@ title: 渗透工具合集
     title="vulhub" 
     author="" 
   />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/51.jpg" 
+    link="https://github.com/rapid7/metasploitable3" 
+    title="metasploitable3" 
+    author="" 
+  />
 </a-row>
 
 
