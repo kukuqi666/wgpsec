@@ -8,7 +8,7 @@ title: 渗透工具合集
 
 ## webshell
 
-<a-row :gutter="[24, 24]">
+<a-row :gutter="[32, 32]">
   <Card 
     cover="https://gitee.com/kukuqi666/images/raw/master/1.jpg" 
     link="https://github.com/rebeyond/Behinder" 
@@ -239,7 +239,7 @@ title: 渗透工具合集
 
 ## 子域名收集工具
 
-<a-row :gutter="[24, 24]">
+<a-row :gutter="[32, 32]">
   <Card 
     cover="https://gitee.com/kukuqi666/images/raw/master/7.jpg" 
     link="https://github.com/shmilylty/OneForAll" 
