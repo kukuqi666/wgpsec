@@ -233,6 +233,12 @@ title: 渗透工具合集
     title="Struts2-Scan" 
     author="" 
   />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/52.jpg" 
+    link="https://github.com/sullo/nikto" 
+    title="nikto" 
+    author="" 
+  />
 </a-row>
 
 
