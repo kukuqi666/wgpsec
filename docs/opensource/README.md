@@ -235,8 +235,50 @@ title: 渗透工具合集
   />
   <Card 
     cover="https://gitee.com/kukuqi666/images/raw/master/52.jpg" 
+    link="https://github.com/zaproxy/zaproxy" 
+    title="zaproxy" 
+    author="" 
+  />
+   <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/53.jpg" 
+    link="https://github.com/andresriancho/w3af" 
+    title="w3af" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/54.jpg" 
     link="https://github.com/sullo/nikto" 
     title="nikto" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/55.jpg" 
+    link="https://github.com/Arachni/arachni" 
+    title="arachni" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/56.jpg" 
+    link="https://github.com/xmendez/wfuzz" 
+    title="wfuzz" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/57.jpg" 
+    link="https://github.com/veo/vscan" 
+    title="vscan" 
+    author="" 
+  /> 
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/58.jpg" 
+    link="https://github.com/Aabyss-Team/ARL" 
+    title="ARL灯塔" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/58.jpg" 
+    link="https://github.com/yaklang/yakit" 
+    title="yakit" 
     author="" 
   />
 </a-row>
