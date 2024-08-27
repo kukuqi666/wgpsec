@@ -386,33 +386,33 @@ title: 渗透工具合集
     author="" 
   />
   <Card 
-    cover="https://gitee.com/wintrysec/images/raw/master//tig.png" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/60.jpg" 
     link="https://github.com/wgpsec/tig" 
     title="TIG-[威胁情报收集]" 
-    author="作者：teamssix" 
+    author="" 
   />
   <Card 
-    cover="https://gitee.com/wintrysec/images/raw/master//wolf-awd.png" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/61.jpg" 
     link="https://github.com/wgpsec/WolfAwd" 
     title="WolfAwd-[AWD线下赛框架]" 
-    author="作者：W4ndell" 
+    author="" 
   />
   <Card 
-    cover="https://gitee.com/wintrysec/images/raw/master//image-20210311161144314.png" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/62.jpg" 
     link="https://github.com/wgpsec/DBJ" 
     title="大宝剑-[资产梳理工具]" 
-    author="作者：wintrysec（温酒）" 
+    author="" 
   />
   <Card 
-    cover="https://gitee.com/wintrysec/images/raw/master/VulnRange-bg.png" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/63.jpg" 
     link="https://github.com/wgpsec/VulnRange" 
     title="VulnRange-[组件漏洞靶场]" 
-    author="作者：wintrysec（温酒）" 
+    author="" 
   />
   <Card 
-    cover="https://gitee.com/wintrysec/images/raw/master/IGScan.png" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/64.jpg" 
     link="https://github.com/wgpsec/IGScan" 
     title="IGScan-[综合信息收集]" 
-    author="作者：ro4lsc" 
+    author="" 
   />
 </a-row>
