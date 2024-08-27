@@ -276,7 +276,7 @@ title: 渗透工具合集
     author="" 
   />
   <Card 
-    cover="https://gitee.com/kukuqi666/images/raw/master/58.jpg" 
+    cover="https://gitee.com/kukuqi666/images/raw/master/59.jpg" 
     link="https://github.com/yaklang/yakit" 
     title="yakit" 
     author="" 
