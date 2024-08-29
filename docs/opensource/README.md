@@ -100,6 +100,12 @@ title: 渗透工具合集
     title="wafw00f" 
     author="" 
   />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/65.jpg" 
+    link="https://github.com/foryujian/yjdirscan" 
+    title="yjdirscan" 
+    author="" 
+  />
 </a-row>
 
 
@@ -413,6 +419,30 @@ title: 渗透工具合集
     cover="https://gitee.com/kukuqi666/images/raw/master/64.jpg" 
     link="https://github.com/wgpsec/IGScan" 
     title="IGScan-[综合信息收集]" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/66.jpg" 
+    link="https://github.com/Lotus6/ThinkphpGUI" 
+    title="ThinkphpGui" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/67.jpg" 
+    link="https://github.com/admintony/svnExploit" 
+    title="svnExploit" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/68.jpg" 
+    link="https://github.com/lengjibo/FourEye" 
+    title="FourEye" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/69.jpg" 
+    link="https://github.com/sqlmapproject/sqlmap" 
+    title="sqlmap" 
     author="" 
   />
 </a-row>
