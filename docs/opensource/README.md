@@ -106,6 +106,12 @@ title: 渗透工具合集
     title="yjdirscan" 
     author="" 
   />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/70.jpg" 
+    link="https://github.com/M4DM0e/DirDar" 
+    title="DirDar" 
+    author="" 
+  />
 </a-row>
 
 
@@ -443,6 +449,42 @@ title: 渗透工具合集
     cover="https://gitee.com/kukuqi666/images/raw/master/69.jpg" 
     link="https://github.com/sqlmapproject/sqlmap" 
     title="sqlmap" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/71.jpg" 
+    link="https://github.com/sensepost/reGeorg" 
+    title="reGeorg" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/72.jpg" 
+    link="https://github.com/ring04h/weakfilescan" 
+    title="weakfilescan" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/73.jpg" 
+    link="https://github.com/amlweems/xzbot" 
+    title="xzbot" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/74.jpg" 
+    link="https://github.com/p1g3/JSINFO-SCAN" 
+    title="JSINFO-SCAN" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/75.jpg" 
+    link="https://github.com/knownsec/pocsuite3" 
+    title="pocsuite3" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/76.jpg" 
+    link="https://github.com/frohoff/ysoserial" 
+    title="ysoserial" 
     author="" 
   />
 </a-row>
