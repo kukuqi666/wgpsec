@@ -169,8 +169,38 @@ title: 渗透工具合集
   />
   <Card 
     cover="https://gitee.com/kukuqi666/images/raw/master/77.jpg" 
-    link="https://github.com/Audi-1/sqli-labs" 
-    title="sqli-labs" 
+    link="https://github.com/c0ny1/upload-labs/" 
+    title="upload-labs" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/78.jpg" 
+    link="https://github.com/c0ny1/upload-labs/" 
+    title="metasploitable3" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/79.jpg" 
+    link="https://github.com/zhuifengshaonianhanlu/pikachu" 
+    title="pikachu" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/80.jpg" 
+    link="https://github.com/bugku/BWVS" 
+    title="BWVS" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/81.jpg" 
+    link="https://github.com/jehy-security/bwapp" 
+    title="bwapp" 
+    author="" 
+  />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/82.jpg" 
+    link="https://github.com/CSPF-Founder/btslab" 
+    title="btslab" 
     author="" 
   />
 </a-row>
