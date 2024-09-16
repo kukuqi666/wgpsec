@@ -167,6 +167,12 @@ title: 渗透工具合集
     title="metasploitable3" 
     author="" 
   />
+  <Card 
+    cover="https://gitee.com/kukuqi666/images/raw/master/77.jpg" 
+    link="https://github.com/Audi-1/sqli-labs" 
+    title="sqli-labs" 
+    author="" 
+  />
 </a-row>
 
 
